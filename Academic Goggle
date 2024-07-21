@@ -1,0 +1,19 @@
+! name: Academic Research
+! description: Forces academic related search results
+! public: false
+! author: CryoFreese
+
+! remove other results
+$discard
+
+! increase results from edu and gov domains
+*.edu$boost=5
+*.gov$boost=4
+scholar.google.com$boost=2
+
+! site specific boost
+nih.gov
+
+! useful but less recommended
+britannica.com$boost=1
+wikipedia.org$boost=1
