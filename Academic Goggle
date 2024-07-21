@@ -12,7 +12,7 @@ $discard
 scholar.google.com$boost=2
 
 ! site specific boost
-nih.gov
+
 
 ! useful but less recommended
 britannica.com$boost=1
