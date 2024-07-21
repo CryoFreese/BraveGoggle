@@ -9,8 +9,8 @@ $discard
 ! increase results from edu and gov domains
 *.gov$boost=5
 *.edu$boost=4
-$site=scholar.google.com,boost=3
 
 ! useful but less recommended
-$site=britannica.com
-$site=wikipedia.org
+$site=scholar.google.com,boost=3
+$site=britannica.com,boost=2
+$site=wikipedia.org,boost=2
