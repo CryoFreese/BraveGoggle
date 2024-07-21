@@ -14,6 +14,6 @@ $discard
 
 
 ! useful but less recommended
-$site=scholar.google.com$boost=2
-$site=britannica.com$boost=2
-$site=wikipedia.org$boost=2
+$site=scholar.google.com,$boost=2
+$site=britannica.com,$boost=2
+$site=wikipedia.org,$boost=2
