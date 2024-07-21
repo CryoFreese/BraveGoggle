@@ -7,13 +7,13 @@
 $discard
 
 ! increase results from edu and gov domains
-*.edu$boost=5
-*.gov$boost=4
-scholar.google.com$boost=2
+*.gov$boost=5
+*.edu$boost=4
 
 ! site specific boost
 
 
 ! useful but less recommended
-britannica.com$boost=1
-wikipedia.org$boost=1
+scholar.google.com$boost=2
+britannica.com$boost=2
+wikipedia.org$boost=2
